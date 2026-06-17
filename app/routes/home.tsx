@@ -45,7 +45,7 @@ export default function Home() {
           <button id="new-quote" className="bg-white text-black px-4 py-2 rounded-md hover:bg-gray-200 transition-colors" onClick={generateRandom}>
             Generate Quote
           </button>
-          <a id="tweet-quote" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors" target="_blank" href={`twitter.com/intent/tweet?text=${num} - ${author}`}>
+          <a id="tweet-quote" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors" target="_blank" href={`https://twitter.com/intent/tweet?text=${num} - ${author}`}>
             Tweet
           </a>
         </div>
